@@ -7,7 +7,6 @@ import logging
 from threading import Thread
 import json
 from Queue import Queue
-import datetime
 
 
 class Lurker(object):
@@ -222,11 +221,12 @@ class ThingspeakChannel(object):
         conn.close()
         return response
 
-    def fetch(self, format):
-            conn = httplib.HTTPConnection(self.server_address)
-            path = "/channels/{0}/feed.{1}".format(self.cid, format)
-            params = urllib.urlencode([('key',self.key)])
-            conn.request("GET", path, params, self.HEADERS)
+    @staticmethod
+    def fetch(server_address, read_key, format_):
+            conn = httplib.HTTPConnection(server_address)
+            path = "/channels/{0}/feed.{1}".format(read_key, format_)
+            params = urllib.urlencode([('key',read_key)])
+            conn.request("GET", path, params, ThingspeakChannel.HEADERS)
             response = conn.getresponse()
             return response
 
