@@ -1,12 +1,14 @@
+#!/usr/bin.env python
 __author__ = 'Leenix'
 
 import serial
-import httplib
-import urllib
+from ThingspeakChannel import *
+from settings import *
 import logging
 from threading import Thread
 import json
 from Queue import Queue
+import time
 
 
 class Lurker(object):
@@ -31,13 +33,19 @@ class Lurker(object):
     ENTRY_START = "#"
     ENTRY_END = "$"
 
-    def __init__(self, port):
-        """Initialise new Lurker device
+    def __init__(self, port="/dev/ttyUSB0"):
+        """
+        Initialise the sink for a connected Lurker module
+
+        Args:
+            port:   The serial port on which the Lurker is connected
+
         """
         self.received_entries = Queue()
         self.port = port
         self.ser = serial.Serial()
         self.reading_thread = Thread(target=self.read_loop)
+
         self.is_reading = False
 
     def connect(self, baud_rate=57600):
@@ -74,6 +82,8 @@ class Lurker(object):
         dictionary format.
         """
 
+        self.connect()
+
         if not self.reading_thread.isAlive() and self.ser.isOpen():
             self.reading_thread.setDaemon(True)
             self.reading_thread.start()
@@ -83,36 +93,66 @@ class Lurker(object):
         else:
             self.is_reading = False
 
+    def read_entry(self):
+        """
+        Read a data entry in from the Lurker over serial.
+        ! Blocking method
+
+        :return: Data entry in string format. Data packets should be in JSON string.
+        """
+        entry_line = ""
+
+        c = self.ser.read()
+
+        while c != Lurker.ENTRY_END:
+            entry_line += c
+            c = self.ser.read()
+        logging.debug(entry_line)
+
+        return entry_line
+
+    @staticmethod
+    def convert_entry_to_json(entry_line):
+        """
+        Convert a data entry string into JSON format
+        The conversion strips out the start and end packet characters
+
+        :param entry_line: Data string to be converted into JSON
+        :return:    JSON object containing sensor data
+        """
+        entry = ""
+
+        # Cut out anything before the start delimiter
+        start_index = entry_line.find(Lurker.ENTRY_START)
+        if start_index >= 0:
+            entry_line = entry_line[start_index + 1:]
+            logging.debug("Pre-processed: " + entry_line)
+
+            # Attempt to convert the packet string into JSON format
+            try:
+                entry = json.loads(entry_line)
+                logging.debug(entry)
+
+            except ValueError:
+                logging.error("Non-JSON data: %s", entry_line)
+
+        return entry
+
     def read_loop(self):
         """
+        Serial reading loop for the attached Lurker
+        The read loop is called by the Lurker's reading thread
         """
+        
         logging.debug("Entered read loop")
         while self.is_reading:
-
-            entry_line = ""
-
-            c = self.ser.read()
-            while c != Lurker.ENTRY_END:
-                entry_line += c
-                c = self.ser.read()
-
-            logging.debug(entry_line)
-            start_index = entry_line.find(Lurker.ENTRY_START)
-
-            # Cut out anything before the start delimiter
-            if start_index >= 0:
-                entry_line = entry_line[start_index + 1:]
-                logging.debug("Pre-processed: " + entry_line)
-                try:
-                    entry = json.loads(entry_line)
-                    logging.debug(entry)
-                    self.received_entries.put(entry)
-                except ValueError:
-                    logging.error("Non-JSON data")
+            entry_line = self.read_entry()
+            processed_entry = Lurker.convert_entry_to_json(entry_line)
+            self.received_entries.put(processed_entry)
 
     def stop_logging(self):
-        """Stop listening on the Lurker
-
+        """
+        Stop listening on the Lurker
         Does nothing if the listening thread is not running
         """
 
@@ -121,32 +161,12 @@ class Lurker(object):
 
         self.received_entries.join()
 
-
-class TooManyFields(ValueError):
-    pass
-
-
-class LurkerProcessor(object):
-    KEY_MAP = {
-        "air_temp": "field1",
-        "surface_temp": "field2",
-        "humidity": "field3",
-        "illuminance": "field4",
-        "noise_level": "field5",
-        "motion": "field6"
-    }
-
-    CHANNEL_MAP = {
-        "lurker1": "JLLN86V2D0X1ZMDU",
-        "lurker2": "JLLN86V2D0X1ZMDU"
-    }
-
     @staticmethod
-    def process_entry(entry):
+    def map_entry(entry):
         """Process an incoming JSON entry into thingspeak format.
 
-        The mapping is determined by the sensor_data_keys map
-        for translating type names into field names.
+        Field mapping can be found in the settings.py file in the following format:
+        date field name: thingspeak field name
 
         The CHANNEL_MAP list gives each ID the proper API key
         so the data is entered into the correct channel (assuming
@@ -168,82 +188,33 @@ class LurkerProcessor(object):
         output = {}
 
         # Each entry must have an ID to be valid so we know where it's going
-        if "id" in entry and entry["id"] in LurkerProcessor.CHANNEL_MAP:
-            channel_key = LurkerProcessor.CHANNEL_MAP[entry["id"]]
+        if "id" in entry and entry["id"] in CHANNEL_MAP:
+            channel_key = CHANNEL_MAP[entry["id"]]
             output["key"] = channel_key
 
             # Map the rest of the data into fields
             # Extra data will be ignored
             for k in entry:
-                if k in LurkerProcessor.KEY_MAP:
-                    new_key = LurkerProcessor.KEY_MAP[k]
+                if k in KEY_MAP:
+                    new_key = KEY_MAP[k]
                     output[new_key] = entry[k]
 
         return output
 
-    def process_loop(self):
-        """
-
-        :return:
-        """
-        while self.is_reading:
-            entry = self.received_entries.get()
-            processed_entry = self.processor.process_entry(entry)
-            logging.debug("Processed: " + processed_entry)
-            # upload shit
-            self.received_entries.task_done()
-
-    def non_null_values(**kwargs):
-        return [(k,v) for (k,v) in kwargs.iteritems() if v != None]
-
-
-class ThingspeakChannel(object):
-    HEADERS = {"Content-type": "application/x-www-form-urlencoded", "Accept": "text/plain"}
-
-    def __init__(self, write_key, read_key=None, server_address="api.thingspeak.com:80"):
-        """ Create a new thingspeak channel uploader thing
-
-        :param write_key: API_KEY for writing to the thingspeak server
-        :param read_key: API_KEY for reading from the thingspeak server
-        :param server_address: Server address for the thingspeak server
-                could be custom I guess
-        """
-        self.write_key = write_key
-        self.read_key = read_key
-        self.server_address = server_address
-
-    @staticmethod
-    def update(entry):
-        params = urllib.urlencode(entry)
-        conn = httplib.HTTPConnection("api.thingspeak.com:80")
-        conn.request("POST", "/update", params, ThingspeakChannel.HEADERS)
-        response = conn.getresponse()
-        conn.close()
-        return response
-
-    @staticmethod
-    def fetch(server_address, read_key, format_):
-            conn = httplib.HTTPConnection(server_address)
-            path = "/channels/{0}/feed.{1}".format(read_key, format_)
-            params = urllib.urlencode([('key',read_key)])
-            conn.request("GET", path, params, ThingspeakChannel.HEADERS)
-            response = conn.getresponse()
-            return response
-
 
 def main():
-    logging.basicConfig(level=logging.DEBUG)
-    lurker = Lurker("COM7")
-    lurker.connect()
+    logging.basicConfig(level=logging.INFO)
+    lurker = Lurker()
     lurker.start_logging()
 
     while True:
         new_entry = lurker.received_entries.get()
-        processed_entry = LurkerProcessor.process_entry(new_entry)
+        processed_entry = Lurker.map_entry(new_entry)
         logging.debug("Processed entry: " + str(processed_entry))
         ThingspeakChannel.update(processed_entry)
         logging.info("Entry uploaded")
         lurker.received_entries.task_done()
+        time.sleep(15)
 
 
 if __name__ == '__main__':

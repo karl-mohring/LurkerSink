@@ -4,8 +4,10 @@ import unittest
 import logging
 import serial
 import time
+import json
 
-from lurker import Lurker, LurkerProcessor
+from lurker import Lurker, ThingspeakChannel
+from settings import *
 
 TEST_PORT = "loop://"
 TEST_ENTRY = {
@@ -42,11 +44,10 @@ class LurkerTest(unittest.TestCase):
             Key has not been correctly mapped (key = API_KEY_1)
             Field has not been mapped correctly ( air temp data == field1 data)
         """
-        processor = LurkerProcessor()
-        processed_entry = processor.process_entry(TEST_ENTRY)
+        processed_entry = Lurker.map_entry(TEST_ENTRY)
         print(processed_entry)
         self.assertEqual(processed_entry["key"],
-                         LurkerProcessor.CHANNEL_MAP["lurker1"],
+                         CHANNEL_MAP["lurker1"],
                          "Bad key map")
 
         self.assertEqual(TEST_ENTRY["air_temp"],
@@ -108,6 +109,13 @@ class LurkerTest(unittest.TestCase):
         self.test_lurker.ser.write("#NOT JSON$")
         self.assertTrue(self.test_lurker.received_entries.empty())
 
+    def test_upload(self):
+        new_entry = "{\"id\": \"lurker1\", \"motion\": 1}"
+        formatted_entry = json.loads(new_entry)
+        processed_entry = Lurker.map_entry(formatted_entry)
+        logging.debug("Processed entry: " + str(processed_entry))
+        ThingspeakChannel.update(processed_entry)
+        logging.info("Entry uploaded")
 
 
 def main():
