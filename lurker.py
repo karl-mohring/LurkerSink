@@ -210,14 +210,20 @@ def main():
     lurker = Lurker()
     lurker.start_logging()
 
-    while True:
-        new_entry = lurker.received_entries.get()
-        processed_entry = Lurker.map_entry(new_entry)
-        logging.debug("Processed entry: " + str(processed_entry))
-        ThingspeakChannel.update(processed_entry)
-        logging.info("Entry uploaded")
-        lurker.received_entries.task_done()
-        time.sleep(15)
+    try:
+        while True:
+            new_entry = lurker.received_entries.get()
+            processed_entry = Lurker.map_entry(new_entry)
+            logging.debug("Processed entry: " + str(processed_entry))
+            ThingspeakChannel.update(processed_entry)
+            logging.info("Entry uploaded")
+            lurker.received_entries.task_done()
+            time.sleep(15)
+
+    except KeyboardInterrupt:
+        logging.INFO("Keyboard Interrupt - Shutting down")
+
+
 
 
 if __name__ == '__main__':
