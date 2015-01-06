@@ -134,6 +134,8 @@ class Lurker(object):
                 entry = json.loads(entry_line)
                 logging.debug(entry)
 
+                logging.info(entry)
+
             except ValueError:
                 logging.error("Non-JSON data: %s", entry_line)
 

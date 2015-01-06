@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20f97d2a-1d2b-4888-b1e1-a04f2e7d7086" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Leenix.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Leenix.xml" />
+    <list default="true" id="20f97d2a-1d2b-4888-b1e1-a04f2e7d7086" name="Default" comment="Removed specific API key">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lurker.py" afterPath="$PROJECT_DIR$/lurker.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -33,49 +33,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lurker.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lurker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lurker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.65796345" vertical-offset="1380" max-vertical-offset="2278">
+              <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
               <folding>
+                <element signature="e#45#58#0" expanded="true" />
                 <element signature="e#991#1149#1" expanded="true" />
                 <element signature="e#1392#1523#1" expanded="true" />
                 <element signature="e#1819#2020#0" expanded="false" />
                 <element signature="e#1819#1919#1" expanded="true" />
                 <element signature="e#2059#2285#1" expanded="true" />
                 <element signature="e#2679#3076#0" expanded="false" />
-                <element signature="e#3147#3966#0" expanded="false" />
                 <element signature="e#3147#3406#1" expanded="true" />
-                <element signature="e#4001#4383#0" expanded="false" />
-                <element signature="e#4001#4131#1" expanded="true" />
-                <element signature="e#4421#4636#0" expanded="false" />
-                <element signature="e#4421#4533#1" expanded="true" />
-                <element signature="e#4690#6007#0" expanded="false" />
-                <element signature="e#4690#5495#1" expanded="true" />
+                <element signature="e#4038#4420#0" expanded="false" />
+                <element signature="e#4038#4168#1" expanded="true" />
+                <element signature="e#4458#4673#0" expanded="false" />
+                <element signature="e#4458#4570#1" expanded="true" />
+                <element signature="e#4727#6044#0" expanded="false" />
+                <element signature="e#4727#5532#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.6" vertical-offset="391" max-vertical-offset="1088">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4940171" vertical-offset="0" max-vertical-offset="585">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -140,9 +127,9 @@
         <option value="$PROJECT_DIR$/ChannelMap.py" />
         <option value="$PROJECT_DIR$/ThingspeakChannel.py" />
         <option value="$PROJECT_DIR$/lurker_unittest.py" />
-        <option value="$PROJECT_DIR$/lurker.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/lurker.py" />
       </list>
     </option>
   </component>
@@ -228,6 +215,118 @@
         <option name="mySdkHome" value="C:\Python27\python.exe" />
       </console-settings>
     </option>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Python.lurker_unittest">
     <configuration default="false" name="Unittest LurkerTest.test_process_entry" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -640,7 +739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1420527206621</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Removed specific API key">
+      <created>1420528581869</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1420528581869</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -653,7 +758,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.634584" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.634584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11420205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -721,11 +826,12 @@
     <MESSAGE value="Test commit via IDEA" />
     <MESSAGE value="Removed redundant code and classes&#10;- Probably broke a lot of design rules, but its easier to understand&#10;&#10;Channel and field mapping is now configurable in the settings.py file." />
     <MESSAGE value="Moved port selection to settings file for simple installations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved port selection to settings file for simple installations." />
+    <MESSAGE value="Removed specific API key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed specific API key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -747,20 +853,20 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4301">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#45#58#0" expanded="true" />
             <element signature="e#991#1149#1" expanded="true" />
             <element signature="e#1392#1523#1" expanded="true" />
             <element signature="e#1819#2020#0" expanded="false" />
             <element signature="e#1819#1919#1" expanded="true" />
             <element signature="e#2059#2285#1" expanded="true" />
             <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
             <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -805,20 +911,20 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4301">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#45#58#0" expanded="true" />
             <element signature="e#991#1149#1" expanded="true" />
             <element signature="e#1392#1523#1" expanded="true" />
             <element signature="e#1819#2020#0" expanded="false" />
             <element signature="e#1819#1919#1" expanded="true" />
             <element signature="e#2059#2285#1" expanded="true" />
             <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
             <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -863,20 +969,20 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3791" max-vertical-offset="4386">
           <caret line="223" column="23" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
           <folding>
+            <element signature="e#45#58#0" expanded="true" />
             <element signature="e#991#1149#1" expanded="true" />
             <element signature="e#1392#1523#1" expanded="true" />
             <element signature="e#1819#2020#0" expanded="false" />
             <element signature="e#1819#1919#1" expanded="true" />
             <element signature="e#2059#2285#1" expanded="true" />
             <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
             <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -921,20 +1027,20 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="4352">
           <caret line="221" column="23" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
           <folding>
+            <element signature="e#45#58#0" expanded="true" />
             <element signature="e#991#1149#1" expanded="true" />
             <element signature="e#1392#1523#1" expanded="true" />
             <element signature="e#1819#2020#0" expanded="false" />
             <element signature="e#1819#1919#1" expanded="true" />
             <element signature="e#2059#2285#1" expanded="true" />
             <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
             <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -979,20 +1085,20 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#45#58#0" expanded="true" />
             <element signature="e#991#1149#1" expanded="true" />
             <element signature="e#1392#1523#1" expanded="true" />
             <element signature="e#1819#2020#0" expanded="false" />
             <element signature="e#1819#1919#1" expanded="true" />
             <element signature="e#2059#2285#1" expanded="true" />
             <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
             <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1020,20 +1126,20 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4352">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#45#58#0" expanded="true" />
             <element signature="e#991#1149#1" expanded="true" />
             <element signature="e#1392#1523#1" expanded="true" />
             <element signature="e#1819#2020#0" expanded="false" />
             <element signature="e#1819#1919#1" expanded="true" />
             <element signature="e#2059#2285#1" expanded="true" />
             <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
             <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1168,29 +1274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lurker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1836">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
-            <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3966#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
-            <element signature="e#4001#4383#0" expanded="false" />
-            <element signature="e#4001#4131#1" expanded="true" />
-            <element signature="e#4421#4636#0" expanded="false" />
-            <element signature="e#4421#4533#1" expanded="true" />
-            <element signature="e#4690#6007#0" expanded="false" />
-            <element signature="e#4690#5495#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
@@ -1199,22 +1282,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.6" vertical-offset="391" max-vertical-offset="1088">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/lurker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4940171" vertical-offset="0" max-vertical-offset="585">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.65796345" vertical-offset="1380" max-vertical-offset="2278">
+          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+            <element signature="e#991#1149#1" expanded="true" />
+            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#1819#2020#0" expanded="false" />
+            <element signature="e#1819#1919#1" expanded="true" />
+            <element signature="e#2059#2285#1" expanded="true" />
+            <element signature="e#2679#3076#0" expanded="false" />
+            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4038#4168#1" expanded="true" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4458#4570#1" expanded="true" />
+            <element signature="e#4727#6044#0" expanded="false" />
+            <element signature="e#4727#5532#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
