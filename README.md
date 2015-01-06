@@ -59,7 +59,8 @@ This will open up an editing window for the Cron Table, which is the scheduling 
 
 2) At the end of the script (after the # lines), type the following:
 
-@reboot /usr/bin/python <location of LurkerSink script>
+	@reboot /usr/bin/python <location of LurkerSink script>
+	
 This script will run whenever the Pi/computer is turned on. Other time frames can be specified by following this guide: http://www.thegeekstuff.com/2011/07/cron-every-5-minutes/
 
 3) Hit 'Ctrl+X' to close the Cron Table. Don't forget to save. Cron scripts become active as soon as the table has been saved.
