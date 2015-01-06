@@ -12,6 +12,6 @@ KEY_MAP = {
 }
 
 CHANNEL_MAP = {
-    "lurker1": "13IIKMBZ68C6QE9E",
-    "lurker2": "JLLN86V2D0X1ZMDU"
+    "lurker1": "CHANNEL WRITE API KEY",
+    "lurker2": "CHANNEL WRITE API KEY"
 }
