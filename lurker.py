@@ -206,11 +206,11 @@ class Lurker(object):
 
 
 def main():
-    logging.basicConfig(level=logging.INFO)
-    lurker = Lurker()
-    lurker.start_logging()
-
     try:
+        logging.basicConfig(level=logging.INFO)
+        lurker = Lurker()
+        lurker.start_logging()
+
         while True:
             new_entry = lurker.received_entries.get()
             processed_entry = Lurker.map_entry(new_entry)

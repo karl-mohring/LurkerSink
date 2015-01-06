@@ -1,6 +1,6 @@
 __author__ = 'Leenix'
 
-SERIAL_PORT = "/dev/ttyUSB0"
+SERIAL_PORT = "COM4"
 
 KEY_MAP = {
     "air_temp": "field1",

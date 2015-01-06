@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20f97d2a-1d2b-4888-b1e1-a04f2e7d7086" name="Default" comment="Removed specific API key">
+    <list default="true" id="20f97d2a-1d2b-4888-b1e1-a04f2e7d7086" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LurkerSink.iml" afterPath="$PROJECT_DIR$/.idea/LurkerSink.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lurker.py" afterPath="$PROJECT_DIR$/lurker.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -36,23 +37,17 @@
       <file leaf-file-name="lurker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lurker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65796345" vertical-offset="1380" max-vertical-offset="2278">
-              <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.6399108" vertical-offset="616" max-vertical-offset="1598">
+              <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
               <folding>
-                <element signature="e#45#58#0" expanded="true" />
-                <element signature="e#991#1149#1" expanded="true" />
-                <element signature="e#1392#1523#1" expanded="true" />
+                <element signature="e#991#1342#0" expanded="false" />
+                <element signature="e#1392#1783#0" expanded="false" />
                 <element signature="e#1819#2020#0" expanded="false" />
-                <element signature="e#1819#1919#1" expanded="true" />
-                <element signature="e#2059#2285#1" expanded="true" />
-                <element signature="e#2679#3076#0" expanded="false" />
-                <element signature="e#3147#3406#1" expanded="true" />
+                <element signature="e#2059#2643#0" expanded="false" />
+                <element signature="e#3147#4003#0" expanded="false" />
                 <element signature="e#4038#4420#0" expanded="false" />
-                <element signature="e#4038#4168#1" expanded="true" />
                 <element signature="e#4458#4673#0" expanded="false" />
-                <element signature="e#4458#4570#1" expanded="true" />
                 <element signature="e#4727#6044#0" expanded="false" />
-                <element signature="e#4727#5532#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +56,7 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
               <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
               <folding />
             </state>
@@ -71,11 +66,10 @@
       <file leaf-file-name="ThingspeakChannel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ThingspeakChannel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
               <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="e#23#36#0" expanded="true" />
-                <element signature="e#91#174#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,22 +78,11 @@
       <file leaf-file-name="lurker_unittest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lurker_unittest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1836">
+            <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2244">
               <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
                 <element signature="e#23#38#0" expanded="true" />
-                <element signature="e#1662#1875#1" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/json/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
-              <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -136,8 +119,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="722" />
+    <option name="width" value="1936" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -149,11 +132,8 @@
     <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -165,27 +145,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LurkerPi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LurkerPi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LurkerSink" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -197,12 +156,12 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -211,124 +170,13 @@
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
-      <console-settings sdk-home="C:\Python27\python.exe">
+      <console-settings module-name="LurkerSink" sdk-home="C:\Python27\python.exe">
         <option name="mySdkHome" value="C:\Python27\python.exe" />
+        <option name="myModuleName" value="LurkerSink" />
       </console-settings>
     </option>
   </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
-  </component>
-  <component name="RunManager" selected="Python.lurker_unittest">
+  <component name="RunManager" selected="Python.LurkerSink">
     <configuration default="false" name="Unittest LurkerTest.test_process_entry" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -745,27 +593,36 @@
       <option name="project" value="LOCAL" />
       <updated>1420528581869</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added some more logging">
+      <created>1420529652298</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1420529652298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added exit via keyboard interrupt">
+      <created>1420585967289</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1420585967289</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="722" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1034" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11420205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.634584" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6335135" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.634584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11420205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -775,9 +632,12 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24469821" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -827,7 +687,9 @@
     <MESSAGE value="Removed redundant code and classes&#10;- Probably broke a lot of design rules, but its easier to understand&#10;&#10;Channel and field mapping is now configurable in the settings.py file." />
     <MESSAGE value="Moved port selection to settings file for simple installations." />
     <MESSAGE value="Removed specific API key" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed specific API key" />
+    <MESSAGE value="Added some more logging" />
+    <MESSAGE value="Added exit via keyboard interrupt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exit via keyboard interrupt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -840,11 +702,63 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lurker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
+            <element signature="e#1819#2020#0" expanded="false" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
+            <element signature="e#4038#4420#0" expanded="false" />
+            <element signature="e#4458#4673#0" expanded="false" />
+            <element signature="e#4727#6044#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThingspeakChannel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="578">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lurker_unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2244">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5712" max-vertical-offset="6052">
+          <caret line="337" column="0" selection-start-line="337" selection-start-column="0" selection-end-line="337" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/thingspeak.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="612">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,20 +767,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4301">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -877,7 +785,6 @@
           <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#1662#1875#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -886,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6015" max-vertical-offset="6579">
           <caret line="368" column="0" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="646">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,20 +816,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4301">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -935,7 +834,6 @@
           <caret line="61" column="27" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#1662#1875#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -944,7 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6015" max-vertical-offset="6579">
           <caret line="368" column="0" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="646">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -969,20 +865,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3791" max-vertical-offset="4386">
           <caret line="223" column="23" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -993,7 +883,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#1662#1875#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1002,7 +891,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6015" max-vertical-offset="6579">
           <caret line="368" column="0" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="646">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,20 +914,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="4352">
           <caret line="221" column="23" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1051,7 +932,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#1662#1875#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1060,7 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6015" max-vertical-offset="6579">
           <caret line="368" column="0" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="646">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1085,20 +963,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,7 +988,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#1662#1875#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1126,20 +997,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4352">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="5957" max-vertical-offset="6579">
           <caret line="365" column="0" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="6015" max-vertical-offset="6579">
           <caret line="368" column="0" selection-start-line="368" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,29 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31965813" vertical-offset="0" max-vertical-offset="612">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lurker_unittest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1836">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#1662#1875#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThingspeakChannel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding>
-            <element signature="e#23#36#0" expanded="true" />
-            <element signature="e#91#174#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1290,25 +1130,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lurker_unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="1836">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#23#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThingspeakChannel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lurker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65796345" vertical-offset="1380" max-vertical-offset="2278">
-          <caret line="136" column="35" selection-start-line="136" selection-start-column="35" selection-end-line="136" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.6399108" vertical-offset="616" max-vertical-offset="1598">
+          <caret line="212" column="0" selection-start-line="212" selection-start-column="0" selection-end-line="212" selection-end-column="0" />
           <folding>
-            <element signature="e#45#58#0" expanded="true" />
-            <element signature="e#991#1149#1" expanded="true" />
-            <element signature="e#1392#1523#1" expanded="true" />
+            <element signature="e#991#1342#0" expanded="false" />
+            <element signature="e#1392#1783#0" expanded="false" />
             <element signature="e#1819#2020#0" expanded="false" />
-            <element signature="e#1819#1919#1" expanded="true" />
-            <element signature="e#2059#2285#1" expanded="true" />
-            <element signature="e#2679#3076#0" expanded="false" />
-            <element signature="e#3147#3406#1" expanded="true" />
+            <element signature="e#2059#2643#0" expanded="false" />
+            <element signature="e#3147#4003#0" expanded="false" />
             <element signature="e#4038#4420#0" expanded="false" />
-            <element signature="e#4038#4168#1" expanded="true" />
             <element signature="e#4458#4673#0" expanded="false" />
-            <element signature="e#4458#4570#1" expanded="true" />
             <element signature="e#4727#6044#0" expanded="false" />
-            <element signature="e#4727#5532#1" expanded="true" />
           </folding>
         </state>
       </provider>
