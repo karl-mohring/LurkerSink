@@ -33,7 +33,7 @@ class Lurker(object):
     ENTRY_START = "#"
     ENTRY_END = "$"
 
-    def __init__(self, port="/dev/ttyUSB0"):
+    def __init__(self, port=SERIAL_PORT):
         """
         Initialise the sink for a connected Lurker module
 
@@ -82,7 +82,8 @@ class Lurker(object):
         dictionary format.
         """
 
-        self.connect()
+        if not self.ser.isOpen():
+            self.connect()
 
         if not self.reading_thread.isAlive() and self.ser.isOpen():
             self.reading_thread.setDaemon(True)
