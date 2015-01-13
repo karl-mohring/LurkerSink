@@ -35,7 +35,7 @@
       <file leaf-file-name="lurker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lurker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3025641" vertical-offset="1846" max-vertical-offset="2431">
+            <state vertical-scroll-proportion="0.4609375" vertical-offset="1846" max-vertical-offset="2431">
               <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
               <folding />
             </state>
@@ -613,12 +613,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="722" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11420205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32789558" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6329527" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -693,7 +693,8 @@
     <MESSAGE value="Added some more logging" />
     <MESSAGE value="Added exit via keyboard interrupt" />
     <MESSAGE value="+ Added exit via keyboard interrupt&#10;+ System exits if serial port does not open" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ Added exit via keyboard interrupt&#10;+ System exits if serial port does not open" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Leenix/ThingspeakChannel&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Leenix/ThingspeakChannel&#10;&#10;Conflicts:&#10;&#9;.gitignore&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1069,7 +1070,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lurker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3025641" vertical-offset="1846" max-vertical-offset="2431">
+        <state vertical-scroll-proportion="0.4609375" vertical-offset="1846" max-vertical-offset="2431">
           <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
           <folding />
         </state>
