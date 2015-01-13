@@ -1,14 +1,17 @@
 #!/usr/bin.env python
+import sys
+
 __author__ = 'Leenix'
 
 import serial
-from ThingspeakChannel import *
-from settings import *
 import logging
 from threading import Thread
 import json
 from Queue import Queue
 import time
+
+from ThingspeakChannel import *
+from settings import *
 
 
 class Lurker(object):
@@ -30,9 +33,6 @@ class Lurker(object):
         is_reading: Flag to indicate whether the reading thread is on or not
     """
 
-    ENTRY_START = "#"
-    ENTRY_END = "$"
-
     def __init__(self, port=SERIAL_PORT):
         """
         Initialise the sink for a connected Lurker module
@@ -48,7 +48,7 @@ class Lurker(object):
 
         self.is_reading = False
 
-    def connect(self, baud_rate=57600):
+    def connect(self, baud_rate=BAUD_RATE):
         """Connect to the Lurker sink over serial
 
         Args:
@@ -62,7 +62,8 @@ class Lurker(object):
             self.ser.open()
             logging.info('Connected to Lurker')
         except serial.SerialException:
-            logging.error('Error opening serial port')
+            logging.critical('Error opening serial port [{}]'.format(self.port))
+            sys.exit()
 
     def disconnect(self):
         """Disconnect from the Lurker sink
@@ -164,46 +165,6 @@ class Lurker(object):
 
         self.received_entries.join()
 
-    @staticmethod
-    def map_entry(entry):
-        """Process an incoming JSON entry into thingspeak format.
-
-        Field mapping can be found in the settings.py file in the following format:
-        date field name: thingspeak field name
-
-        The CHANNEL_MAP list gives each ID the proper API key
-        so the data is entered into the correct channel (assuming
-        each unit has its own channel.
-
-        :param entry: JSON format of sensor data = {
-                        "id": unit_id,
-                        "temperature": temp_data,
-                        "humidity": humidity_data,...
-                        }
-
-        :return: JSON data in Thingspeak format = {
-                        "key": API_KEY
-                        "field1": field1_data
-                        "field2": field2_data...
-                        }
-        """
-
-        output = {}
-
-        # Each entry must have an ID to be valid so we know where it's going
-        if "id" in entry and entry["id"] in CHANNEL_MAP:
-            channel_key = CHANNEL_MAP[entry["id"]]
-            output["key"] = channel_key
-
-            # Map the rest of the data into fields
-            # Extra data will be ignored
-            for k in entry:
-                if k in KEY_MAP:
-                    new_key = KEY_MAP[k]
-                    output[new_key] = entry[k]
-
-        return output
-
 
 def main():
     try:
@@ -222,8 +183,6 @@ def main():
 
     except KeyboardInterrupt:
         logging.INFO("Keyboard Interrupt - Shutting down")
-
-
 
 
 if __name__ == '__main__':
