@@ -1,0 +1,3 @@
+[submodule "ThingspeakChannel"]
+	path = ThingspeakChannel
+	url = https://github.com/Leenix/ThingspeakChannel
